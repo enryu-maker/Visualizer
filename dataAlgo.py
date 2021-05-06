@@ -12,7 +12,7 @@ class Data():
         for x in self.column_detail:
             plt.figure(figsize = (10, 7))
             a = self.usable_df[x]
-            plt.hist(a, bins = 20, color = "green")
+            plt.hist(a, bins = 20, color = "purple")
             plt.title(x)
             plt.xlabel(x)
             plt.ylabel("Frequency")
